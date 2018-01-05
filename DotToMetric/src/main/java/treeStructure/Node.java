@@ -14,7 +14,7 @@ public class Node<K, V> implements Position<K, V> {
 		this.key=k;
 		this.setValue(null);
 		this.setParent(null);
-		this.setChildrens(new ArrayList<>());
+		this.setChildrens(new ArrayList<Node<K,V>>());
 		
 	}
 	
@@ -22,7 +22,7 @@ public class Node<K, V> implements Position<K, V> {
 		this.key=k;
 		this.setValue(v);
 		this.setParent(null);
-		this.setChildrens(new ArrayList<>());
+		this.setChildrens(new ArrayList<Node<K,V>>());
 		
 	}
 	
@@ -30,7 +30,7 @@ public class Node<K, V> implements Position<K, V> {
 		this.key=k;
 		this.setValue(v);
 		this.setParent(parent);
-		this.setChildrens(new ArrayList<>());
+		this.setChildrens(new ArrayList<Node<K,V>>());
 		
 	}
 	
