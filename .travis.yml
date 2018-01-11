@@ -1,9 +1,0 @@
-{
-  "language": "java",
-  "jdk": "oraclejdk9",
-  "before script": "cd DotToMetric",
-  "script": "mvn test",
-  "group": "stable",
-  "dist": "trusty",
-  "os": "linux"
-}
