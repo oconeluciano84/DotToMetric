@@ -1,0 +1,13 @@
+digraph"com.jaeksoft.pojodbc.Query.update"
+{
+edge[fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+node[fontname="Helvetica",fontsize="10",shape=record];
+rankdir="LR";
+Node1[label="com.jaeksoft.pojodbc.Query.update",height=0.2,width=0.4,color="black",fillcolor="grey75",style="filled",fontcolor="black"];
+Node1->Node2[dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+Node2[label="com.jaeksoft.pojodbc.Transaction.update",height=0.2,width=0.4,color="black",fillcolor="white",style="filled",URL="$classcom_1_1jaeksoft_1_1pojodbc_1_1_transaction.html#a44c46fa68be3fb5a68bf39d9fcb63938"];
+Node2->Node3[dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+Node3[label="com.jaeksoft.searchlib.script.ScriptCommandContext.executeSqlUpdate",height=0.2,width=0.4,color="black",fillcolor="white",style="filled",URL="$classcom_1_1jaeksoft_1_1searchlib_1_1script_1_1_script_command_context.html#a3e5ba473c0a139a43885a19aa9c7cc8d"];
+Node3->Node4[dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+Node4[label="com.jaeksoft.searchlib.crawler.web.spider.ClickCapture.sql",height=0.2,width=0.4,color="black",fillcolor="white",style="filled",URL="$classcom_1_1jaeksoft_1_1searchlib_1_1crawler_1_1web_1_1spider_1_1_click_capture.html#a2f1c5cb7c1d36792740eac482e136f51"];
+}

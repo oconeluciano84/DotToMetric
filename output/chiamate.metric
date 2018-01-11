@@ -1,0 +1,76 @@
+***************************"com.jaeksoft.pojodbc.Query.closeAll"***************************
+"com.jaeksoft.pojodbc.Query.closeAll"
+	"com.jaeksoft.pojodbc.connection.ConnectionManager.close"[DIRETTA]
+
+***************************"com.jaeksoft.pojodbc.Query.getStatement"***************************
+"com.jaeksoft.pojodbc.Query.getStatement"
+	"com.jaeksoft.searchlib.crawler.database.DatabaseCrawlSql.test"[DIRETTA]
+	"com.jaeksoft.searchlib.crawler.database.DatabaseCrawlSqlThread.runner"[DIRETTA]
+
+***************************"com.jaeksoft.pojodbc.Query.update"***************************
+"com.jaeksoft.searchlib.script.ScriptCommandContext.executeSqlUpdate"
+	"com.jaeksoft.searchlib.crawler.web.spider.ClickCapture.sql"[INDIRETTA]
+"com.jaeksoft.pojodbc.Query.update"
+	"com.jaeksoft.pojodbc.Transaction.update"[DIRETTA]
+"com.jaeksoft.pojodbc.Transaction.update"
+	"com.jaeksoft.searchlib.script.ScriptCommandContext.executeSqlUpdate"[INDIRETTA]
+
+***************************"com.jaeksoft.pojodbc.Query.setFirstResult"***************************
+"com.jaeksoft.pojodbc.Query.setFirstResult"
+	"com.jaeksoft.pojodbc.PartialList.update"[DIRETTA]
+"com.jaeksoft.pojodbc.PartialList.update"
+	"com.jaeksoft.pojodbc.PartialList.get"[INDIRETTA]
+
+***************************"com.jaeksoft.searchlib.analysis.filter.ArabicStemFilter"***************************
+"com.jaeksoft.searchlib.config.ConfigFiles"
+	"com.jaeksoft.searchlib.config.Config"[INDIRETTA]
+"Lock"
+	"com.jaeksoft.searchlib.util.ReadWriteLock"[INDIRETTA]
+"Map\<com.jaeksoft.searchlib.analysis.ClassPropertyEnum,com.jaeksoft.searchlib.analysis.ClassProperty\>"
+	"com.jaeksoft.searchlib.analysis.ClassFactory"[INDIRETTA]
+"File"
+	"com.jaeksoft.searchlib.config.Config"[INDIRETTA]
+"com.jaeksoft.searchlib.config.Config"
+	"com.jaeksoft.searchlib.analysis.ClassFactory"[INDIRETTA]
+"List\<com.jaeksoft.searchlib.analysis.ClassProperty\>"
+	"com.jaeksoft.searchlib.analysis.ClassFactory"[INDIRETTA]
+"com.jaeksoft.searchlib.analysis.FilterFactory"
+	"com.jaeksoft.searchlib.analysis.filter.ArabicStemFilter"[INDIRETTA]
+"ThreadFactory"
+	"com.jaeksoft.searchlib.config.Config"[INDIRETTA]
+"com.jaeksoft.searchlib.util.ReadWriteLock"
+	"com.jaeksoft.searchlib.config.Config"[INDIRETTA]
+"com.jaeksoft.searchlib.analysis.ClassFactory"
+	"com.jaeksoft.searchlib.analysis.FilterFactory"[INDIRETTA]
+
+***************************"com.jaeksoft.searchlib.analysis.filter.ArabicStemFilter"***************************
+"com.jaeksoft.searchlib.analysis.FilterFactory"
+	"com.jaeksoft.searchlib.analysis.filter.ArabicStemFilter"[INDIRETTA]
+"com.jaeksoft.searchlib.analysis.ClassFactory"
+	"com.jaeksoft.searchlib.analysis.FilterFactory"[INDIRETTA]
+
+***************************"com.jaeksoft.searchlib.webservice.screenshot.ScreenshotImpl.captureScreenshotAPI"***************************
+"com.jaeksoft.searchlib.InstanceProperties.checkApi"
+	"com.jaeksoft.searchlib.InstanceProperties.checkApiRate"[INDIRETTA]
+	"com.jaeksoft.searchlib.InstanceProperties.checkApiRequestPerMonth"[INDIRETTA]
+"com.jaeksoft.searchlib.webservice.screenshot.ScreenshotImpl.captureScreenshotAPI"
+	"com.jaeksoft.searchlib.InstanceProperties.checkApi"[DIRETTA]
+	"com.jaeksoft.searchlib.crawler.web.browser.BrowserDriverEnum.find"[DIRETTA]
+	"com.jaeksoft.searchlib.ClientFactory.getDefaultWebBrowserDriver"[DIRETTA]
+	"com.jaeksoft.searchlib.util.properties.PropertyItem.getValue"[DIRETTA]
+	"com.jaeksoft.searchlib.crawler.web.screenshot.ScreenshotThread.runner"[DIRETTA]
+	"com.jaeksoft.searchlib.crawler.web.screenshot.ScreenshotThread.getImage"[DIRETTA]
+"com.jaeksoft.searchlib.crawler.web.screenshot.ScreenshotThread.runner"
+	"com.jaeksoft.searchlib.crawler.web.database.CredentialItem.getURLUserInfo"[INDIRETTA]
+	"com.jaeksoft.searchlib.process.ThreadAbstract.toString"[INDIRETTA]
+	"com.jaeksoft.searchlib.crawler.web.browser.BrowserDriver.get"[INDIRETTA]
+	"com.jaeksoft.searchlib.process.ThreadAbstract.sleepSec"[INDIRETTA]
+	"com.jaeksoft.searchlib.crawler.web.browser.BrowserDriver.getScreenshot"[INDIRETTA]
+	"com.jaeksoft.searchlib.util.ImageUtils.getSubimage"[INDIRETTA]
+	"com.jaeksoft.searchlib.util.ImageUtils.reduceImage"[INDIRETTA]
+	"com.jaeksoft.searchlib.crawler.web.screenshot.ScreenshotManager.store"[INDIRETTA]
+	"com.jaeksoft.searchlib.crawler.web.screenshot.ScreenshotThread.release"[INDIRETTA]
+"com.jaeksoft.searchlib.crawler.web.screenshot.ScreenshotThread.release"
+	"com.jaeksoft.searchlib.crawler.web.browser.BrowserDriver.close"[INDIRETTA]
+	"com.jaeksoft.searchlib.Logging.warn"[INDIRETTA]
+
