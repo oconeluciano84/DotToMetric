@@ -1,6 +1,6 @@
 language: java
 jdk: oraclejdk9
-script: mvn compile
+script: mvn compile test
 group: stable
 dist: trusty
 os: linux
